@@ -1,0 +1,10 @@
+/home/th3m45t3rm1nd/projects/get-oxidized/oxidized-todo/target/debug/deps/term-28ab20ee52e83f8b.rmeta: /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/lib.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/mod.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/searcher.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/parser/compiled.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/parser/names.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/parm.rs
+
+/home/th3m45t3rm1nd/projects/get-oxidized/oxidized-todo/target/debug/deps/term-28ab20ee52e83f8b.d: /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/lib.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/mod.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/searcher.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/parser/compiled.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/parser/names.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/parm.rs
+
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/lib.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/mod.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/searcher.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/parser/compiled.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/parser/names.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/term-0.7.0/src/terminfo/parm.rs:

@@ -1,0 +1,9 @@
+/home/th3m45t3rm1nd/projects/get-oxidized/oxidized-todo/target/debug/deps/anstyle_parse-323abffd3a82ae3c.rmeta: /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/lib.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/params.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/state/mod.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/state/definitions.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/state/table.rs
+
+/home/th3m45t3rm1nd/projects/get-oxidized/oxidized-todo/target/debug/deps/anstyle_parse-323abffd3a82ae3c.d: /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/lib.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/params.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/state/mod.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/state/definitions.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/state/table.rs
+
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/lib.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/params.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/state/mod.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/state/definitions.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-parse-0.2.1/src/state/table.rs:
