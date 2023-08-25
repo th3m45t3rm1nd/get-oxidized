@@ -1,10 +1,15 @@
 use std::collections::HashMap;
 use std::io;
 
-use oxidized_todo::{new_task, Todo};
+use oxidized_todo::{new_task, unwrap_status, Todo};
 use prettytable::{row, Table};
 
 fn main() {
+    let mut choice = String::from("");
+    io::stdin()
+        .read_line(&mut choice)
+        .expect("Failed to read line");
+
     let mut tasks: HashMap<usize, Todo> = HashMap::new();
     let mut task: String = String::from("");
     println!("Enter the name of the task:");
@@ -18,7 +23,7 @@ fn main() {
 
     let mut table = Table::new();
     for (k, v) in tasks.iter() {
-        table.add_row(row![k, v.task]);
+        table.add_row(row![k, v.task, unwrap_status(&v.task_status)]);
     }
 
     table.printstd();
