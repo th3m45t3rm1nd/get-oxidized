@@ -46,6 +46,7 @@ pub fn change_status() -> Result<Status, Box<dyn Error>> {
         .read_line(&mut input)
         .expect("Failed to read line");
 
+    input = input.trim().to_string();
     if input == "1" {
         Ok(Status::Todo)
     } else if input == "2" {
