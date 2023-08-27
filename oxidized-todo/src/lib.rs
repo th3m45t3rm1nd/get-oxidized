@@ -1,10 +1,10 @@
 use colored::{ColoredString, Colorize};
+use std::collections::BTreeMap;
 use std::error::Error;
 use std::io;
 #[warn(dead_code)]
 #[derive(Debug)]
 pub struct Todo {
-    pub id: usize,
     pub task: String,
     pub task_status: Status,
 }
@@ -17,9 +17,8 @@ pub enum Status {
     OnHold,
 }
 
-pub fn new_task(task_name: String, task_len: usize) -> Todo {
+pub fn new_task(task_name: String) -> Todo {
     Todo {
-        id: task_len + 1,
         task: task_name,
         task_status: Status::Todo,
     }
@@ -58,4 +57,14 @@ pub fn change_status() -> Result<Status, Box<dyn Error>> {
     } else {
         Err("Wrong Input.".into())
     }
+}
+
+pub fn rearrange(tasks: BTreeMap<usize, Todo>) -> BTreeMap<usize, Todo> {
+    let mut new_task: BTreeMap<usize, Todo> = BTreeMap::new();
+
+    for (_, v) in tasks.into_iter() {
+        new_task.insert(new_task.len() + 1, v);
+    }
+
+    new_task
 }
