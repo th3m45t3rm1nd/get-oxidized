@@ -1,7 +1,24 @@
+#[warn(unused_imports)]
 use colored::{ColoredString, Colorize};
+use serde::{Deserialize, Serialize};
+use serde_json::Value;
 use std::collections::BTreeMap;
 use std::error::Error;
+use std::fs::File;
 use std::io;
+
+/* #[derive(Serialize, Deserialize)]
+struct TodoData {
+    todos: BTreeMap<usize, Todo>,
+}
+
+pub fn save_to_file(data: &TodoData, filepath: &str) -> std::io::Result<()> {
+    let serialized_data = serde_json::to_string(data)?;
+    let mut file = File::create(filepath)?;
+    file.write_all(serialized_data.as_bytes())?;
+    Ok(())
+} */
+
 #[warn(dead_code)]
 #[derive(Debug)]
 pub struct Todo {

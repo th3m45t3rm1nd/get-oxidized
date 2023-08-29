@@ -1,0 +1,10 @@
+/home/th3m45t3rm1nd/projects/get-oxidized/oxidized-todo/target/debug/deps/prettytable-2b1c48a16c4f514e.rmeta: /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/lib.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/cell.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/format.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/row.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/utils.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/csv.rs
+
+/home/th3m45t3rm1nd/projects/get-oxidized/oxidized-todo/target/debug/deps/prettytable-2b1c48a16c4f514e.d: /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/lib.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/cell.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/format.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/row.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/utils.rs /home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/csv.rs
+
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/lib.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/cell.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/format.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/row.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/utils.rs:
+/home/th3m45t3rm1nd/.cargo/registry/src/index.crates.io-6f17d22bba15001f/prettytable-rs-0.10.0/src/csv.rs:

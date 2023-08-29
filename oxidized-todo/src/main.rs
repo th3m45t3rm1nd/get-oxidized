@@ -1,3 +1,4 @@
+use colored::Colorize;
 use std::collections::BTreeMap;
 use std::io;
 
@@ -9,7 +10,7 @@ fn main() {
     let mut exit: bool = false;
     while !exit {
         println!("What do you want to do?");
-        println!("Type \"help\" if you don't know anything.");
+        println!("Type \'help\' if you don't know anything.");
         let mut input = String::from("");
         io::stdin()
             .read_line(&mut input)
@@ -17,11 +18,17 @@ fn main() {
         input = input.trim().to_string();
 
         if input == "help" {
-            println!("add: to add new task");
-            println!("change: to change of a particular task");
-            println!("remove: to remove a particular task");
-            println!("show: to show all tasks");
-            println!("exit: to exit");
+            println!("{}: to add new task", "add".bright_yellow().bold());
+            println!(
+                "{}: to change of a particular task",
+                "change".bright_yellow().bold()
+            );
+            println!(
+                "{}: to remove a particular task",
+                "remove".bright_yellow().bold()
+            );
+            println!("{}: to show all tasks", "show".bright_yellow().bold());
+            println!("{}: to exit", "exit".bright_yellow().bold());
         } else if input == "add" {
             let mut task: String = String::from("");
             println!("Enter the name of the task:");
@@ -30,6 +37,7 @@ fn main() {
                 .expect("Failed to read line");
             task = task.trim().to_string();
             tasks.insert(tasks.len() + 1, new_task(task));
+            println!("{}", "Task added successfully".bright_green().bold());
         } else if input == "show" {
             let mut table = Table::new();
             for (k, v) in tasks.iter() {
@@ -58,6 +66,8 @@ fn main() {
                 if let Ok(status) = change_status() {
                     task.task_status = status;
                     println!("Task Status changed successfully.")
+                } else {
+                    println!("Wrong Choice.")
                 }
             } else {
                 println!("Invalid Choice.");
@@ -79,8 +89,15 @@ fn main() {
                 choice = value;
             }
 
-            tasks.remove(&choice);
-            tasks = rearrange(tasks);
+            if tasks.contains_key(&choice) {
+                tasks.remove(&choice);
+                tasks = rearrange(tasks);
+                println!("{}", "Task removed successfully.".green())
+            } else {
+                eprintln!("{}", "Invalid Choice!!!".red().bold());
+            }
+        } else {
+            eprintln!("{}", "Invaild Command!!!".red().bold());
         }
     }
 }
